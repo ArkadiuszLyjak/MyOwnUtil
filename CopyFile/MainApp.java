@@ -9,6 +9,7 @@ public class MainApp implements common {
     public static void main(String[] args) throws IOException {
 
         System.out.println("Działam na hotfix");
+        System.out.println("Wrocilem na hotfix-a");
         CopyFilesUsingNIO.copyFilesUsingNIO(common.PATH_TO_SOURCE, common.PATH_TO_DESTINATION);
 //        CopyFilesUsingIO.copyFilesUsingIO(common.PATH_TO_SOURCE, common.PATH_TO_DESTINATION);
 //        CopyFileUsingIO2.copyFileUsingIO2();
