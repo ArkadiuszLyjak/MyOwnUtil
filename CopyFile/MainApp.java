@@ -18,6 +18,7 @@ public class MainApp implements common {
         System.out.println("Wrocilem na hotfix-a");
         System.out.println("A tu jade na masterze!");
         System.out.println("Robie nowy branch na masterze");
+        System.out.println("Działam na qucikMod");
         CopyFilesUsingNIO.copyFilesUsingNIO(common.PATH_TO_SOURCE, common.PATH_TO_DESTINATION);
 //        CopyFilesUsingIO.copyFilesUsingIO(common.PATH_TO_SOURCE, common.PATH_TO_DESTINATION);
 //        CopyFileUsingIO2.copyFileUsingIO2();
